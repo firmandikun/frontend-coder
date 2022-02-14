@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+body {
+    font-family: Poppins,sans-serif;
+    background: linear-gradient(90deg,#f6f8fd 29px,transparent 1%) 50%,linear-gradient(#f6f8fd 29px,transparent 1%) 50%,#bfc5d3;
+    background-size: 30px 30px;
+}
+.title-hero{
+    color: #34364a;
+    font-weight: 700;
+    font-size: 46px;
+}
+
+.hero {
+    margin-top: 100px;
+    margin-bottom: 70px;
+}
+
+.animasi-teks {
+    width: 100%;
+    white-space:nowrap;
+    overflow:hidden;
+    -webkit-animation: typing 6s steps(70, end);
+    animation: animasi-ketik 6s steps(70, end);
+  }
+  
+  @keyframes animasi-ketik{
+    from { width: 0; }
+  }
+  
+  @-webkit-keyframes animasi-ketik{
+    from { width: 0; }
+  }
+
+.card-service{ 
+    background: #fff;
+    border-radius: 16px;
+    padding: 30px;
+}
+
+.course-name {
+    font-weight: 700;
+    font-size: 17px !important;
+    color: #34364a;
+    margin-bottom: 0;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.text-testimony {
+
+    line-height: 40px;
+}
